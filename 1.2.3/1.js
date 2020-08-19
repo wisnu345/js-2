@@ -12,8 +12,8 @@ const cekHariKerja = (day) => {
     })
 }
 
-// ////then catch//
-// cekHariKerja("senisn")
+////then catch//
+// cekHariKerja("senin")
 // .then(result=>{
 //     console.log(result)
 // })
@@ -22,7 +22,7 @@ const cekHariKerja = (day) => {
 // })
 
 //constructor Promise menrima argument yang berupa fungsi yang menerima dua parameter yang biasa disebut dengan resolve dan reject 
-//kemudian method/fungsi then dan catch masing-masing memilki fungsi untuk memngolah hasil sukses atau gagal
+//method/fungsi then dan catch masing-masing memilki fungsi untuk memngolah hasil sukses atau gagal
 
 //////try catch//
 const hasil = async(hari) => {
@@ -34,6 +34,6 @@ const hasil = async(hari) => {
     }
 }
 
-hasil('rabu')
+hasil('sabtu')
 
-//penggunaan try dan catch untuk penanganan error pada program Javascript,  try memungkinkan untuk menentukan blok kode yang akan diuji untuk kesalahan ketika sedang dieksekusi,catch memungkinkan Anda untuk menentukan blok kode yang akan dieksekusi , jika kesalahan terjadi pada blok try
+//penggunaan try dan catch untuk penanganan error pada program Javascript,  try memungkinkan untuk menentukan blok kode yang akan diuji untuk kesalahan ketika sedang dieksekusi,catch memungkinkan untuk menentukan blok kode yang akan dieksekusi jika kesalahan terjadi pada blok try
